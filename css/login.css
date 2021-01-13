@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #4da2f5;
+}
+.tu {
+    height: 100px;
+}
+.tu img {
+    margin: 20px 0 0 240px;
+}
+.login {
+    width: 400px;
+    height: 310px;
+    background-color: #f8da6f;
+    box-shadow: 5px 5px 5px 5px #000;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.login .title {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.login form {
+    margin: 0 30px;
+} 
+.login .layui-form-item {
+    position: relative;
+    clear: both;
+}
+.login .layui-form-item input {
+    padding-left: 20px;
+}
+.login .layui-form-item .layui-icon {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+}
+
+.login .layui-form-item a {
+    float: right;
+}
